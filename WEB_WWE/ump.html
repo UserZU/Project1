@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penghitung UMP</title>
+    <link rel="stylesheet" href="ump.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Penghitung UMP</h1>
+        <form id="">
+            <label for="ump" id="ump" name="ump">UMP:3000000</label>
+
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama">
+
+            <label for="masa_kerja">Masa Kerja</label>
+            <input type="number" name="masa_kerja" id="masa_kerja" required>
+            
+            <label for="gaji_pokok">Gaji Pokok</label>
+            <input type="number" name="gaji_pokok" id="gaji_pokok">
+
+            <label for="bonus">Bonus</label>
+            <input type="number" name="bonus" id="bonus">
+
+            <label for="pajak">Pajak</label>
+            <input type="number" id="pajak" name="pajak">
+
+            <label for="gaji_bersih">Gaji Bersih</label>
+            <input type="number" name="gaji_bersih" id="gaji_bersih">
+
+            <button type="button" onclick="calculate()">Hitung</button>
+        </form>    
+    </div>
+
+    <script src="ump.js"></script>
+</body>
+</html>
